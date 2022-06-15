@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
-    <entity name="Categories" representedClassName="Categories" syncable="YES" codeGenerationType="class">
+    <entity name="Categories" representedClassName="Categories" syncable="YES">
         <attribute name="color" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="details" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="name" optional="YES" attributeType="String"/>
         <relationship name="questions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Question" inverseName="categories" inverseEntity="Question"/>
     </entity>
-    <entity name="Question" representedClassName="Question" syncable="YES" codeGenerationType="class">
+    <entity name="Question" representedClassName="Question" syncable="YES">
         <attribute name="answer" optional="YES" attributeType="String"/>
+        <attribute name="completed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="moreInfo" optional="YES" attributeType="String"/>
         <attribute name="question" optional="YES" attributeType="String"/>
         <relationship name="categories" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Categories" inverseName="questions" inverseEntity="Categories"/>
         <relationship name="tags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tags" inverseName="questions" inverseEntity="Tags"/>
     </entity>
-    <entity name="Tags" representedClassName="Tags" syncable="YES" codeGenerationType="class">
+    <entity name="Tags" representedClassName="Tags" syncable="YES">
         <attribute name="color" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="details" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
@@ -25,6 +26,6 @@
     <elements>
         <element name="Categories" positionX="-63" positionY="-18" width="128" height="104"/>
         <element name="Tags" positionX="-63" positionY="9" width="128" height="104"/>
-        <element name="Question" positionX="-54" positionY="36" width="128" height="119"/>
+        <element name="Question" positionX="-54" positionY="36" width="128" height="134"/>
     </elements>
 </model>
