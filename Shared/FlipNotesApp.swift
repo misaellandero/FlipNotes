@@ -7,14 +7,21 @@
 
 import SwiftUI
 
+// MARK: - Navigation Options
+enum SectionSelected {
+    case questions, tags, categories, settings
+}
+
+
 @main
 struct FlipNotesApp: App {
-    let persistenceController = PersistenceController.shared
-
+    //Coreda Data
+    @StateObject var coreData = PersistentCloudKitContainer()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(\.managedObjectContext, coreData.persistentContainer.viewContext)
         }
     }
 }

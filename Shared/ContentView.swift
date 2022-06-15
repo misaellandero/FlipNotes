@@ -9,7 +9,28 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    
+    
+    // MARK: - Screen Size for determining ipad or iphone screen
+    #if os(iOS)
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
+    #endif
+    
+    // MARK: - current section selected
+    @State var sectionSelected : SectionSelected? = .questions
+    
     var body: some View {
-        Text("Hi")
+        Group{
+            #if os(iOS)
+            if horizontalSizeClass == .compact {
+                TabBarView()
+            } else {
+                SideBarView(sectionSelected : $sectionSelected)
+            }
+            #elseif os(macOS)
+            //Text("hi test")
+            SideBarView(sectionSelected : $sectionSelected)
+            #endif
+        }
     }
 }

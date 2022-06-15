@@ -31,6 +31,26 @@
 		132229DC28597CF6006671A6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132229DB28597CF6006671A6 /* CloudKit.framework */; };
 		132229DE28597D5A006671A6 /* PersistentCloudKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229DD28597D5A006671A6 /* PersistentCloudKitContainer.swift */; };
 		132229DF28597D5A006671A6 /* PersistentCloudKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229DD28597D5A006671A6 /* PersistentCloudKitContainer.swift */; };
+		132229E228597F2B006671A6 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229E128597F2B006671A6 /* SideBarView.swift */; };
+		132229E328597F2C006671A6 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229E128597F2B006671A6 /* SideBarView.swift */; };
+		132229E5285980A8006671A6 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229E4285980A8006671A6 /* TabBarView.swift */; };
+		132229E6285980A8006671A6 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229E4285980A8006671A6 /* TabBarView.swift */; };
+		132229E82859818B006671A6 /* ButtomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229E72859818B006671A6 /* ButtomBar.swift */; };
+		132229E92859818B006671A6 /* ButtomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229E72859818B006671A6 /* ButtomBar.swift */; };
+		132229EB28598442006671A6 /* CategoriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229EA28598442006671A6 /* CategoriesListView.swift */; };
+		132229EC28598442006671A6 /* CategoriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229EA28598442006671A6 /* CategoriesListView.swift */; };
+		132229EF2859846D006671A6 /* CategorieFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229EE2859846D006671A6 /* CategorieFormView.swift */; };
+		132229F02859846D006671A6 /* CategorieFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229EE2859846D006671A6 /* CategorieFormView.swift */; };
+		132229F32859859F006671A6 /* AppColorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229F22859859F006671A6 /* AppColorsModel.swift */; };
+		132229F42859859F006671A6 /* AppColorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229F22859859F006671A6 /* AppColorsModel.swift */; };
+		132229F9285985B8006671A6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229F6285985B8006671A6 /* ColorExtension.swift */; };
+		132229FA285985B8006671A6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229F6285985B8006671A6 /* ColorExtension.swift */; };
+		132229FB285985B8006671A6 /* BindingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229F7285985B8006671A6 /* BindingExtension.swift */; };
+		132229FC285985B8006671A6 /* BindingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229F7285985B8006671A6 /* BindingExtension.swift */; };
+		132229FD285985B8006671A6 /* DateFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229F8285985B8006671A6 /* DateFormatterExtension.swift */; };
+		132229FE285985B8006671A6 /* DateFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132229F8285985B8006671A6 /* DateFormatterExtension.swift */; };
+		13222A012859884D006671A6 /* CategoriesDumbModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13222A002859884D006671A6 /* CategoriesDumbModel.swift */; };
+		13222A022859884D006671A6 /* CategoriesDumbModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13222A002859884D006671A6 /* CategoriesDumbModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +72,16 @@
 		132229D928597CD2006671A6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		132229DB28597CF6006671A6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		132229DD28597D5A006671A6 /* PersistentCloudKitContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentCloudKitContainer.swift; sourceTree = "<group>"; };
+		132229E128597F2B006671A6 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		132229E4285980A8006671A6 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		132229E72859818B006671A6 /* ButtomBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtomBar.swift; sourceTree = "<group>"; };
+		132229EA28598442006671A6 /* CategoriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListView.swift; sourceTree = "<group>"; };
+		132229EE2859846D006671A6 /* CategorieFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorieFormView.swift; sourceTree = "<group>"; };
+		132229F22859859F006671A6 /* AppColorsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColorsModel.swift; sourceTree = "<group>"; };
+		132229F6285985B8006671A6 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		132229F7285985B8006671A6 /* BindingExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingExtension.swift; sourceTree = "<group>"; };
+		132229F8285985B8006671A6 /* DateFormatterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterExtension.swift; sourceTree = "<group>"; };
+		13222A002859884D006671A6 /* CategoriesDumbModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDumbModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +119,7 @@
 		1322299828597540006671A6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				132229F5285985B8006671A6 /* Extensions */,
 				132229D228597933006671A6 /* ViewModel */,
 				132229D12859792D006671A6 /* Views */,
 				132229D028597923006671A6 /* Model */,
@@ -119,6 +150,7 @@
 		132229D028597923006671A6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				132229F12859859F006671A6 /* Colors */,
 				1322299928597540006671A6 /* FlipNotes.xcdatamodeld */,
 				132229D328597B0F006671A6 /* Question */,
 				132229D528597BF5006671A6 /* Category */,
@@ -130,6 +162,8 @@
 		132229D12859792D006671A6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				132229E028597E29006671A6 /* Navigation */,
+				132229ED28598449006671A6 /* Categories */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +197,7 @@
 		132229D528597BF5006671A6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				13222A002859884D006671A6 /* CategoriesDumbModel.swift */,
 				132229C228597871006671A6 /* Categories+CoreDataClass.swift */,
 				132229C328597871006671A6 /* Categories+CoreDataProperties.swift */,
 			);
@@ -176,6 +211,43 @@
 				132229D928597CD2006671A6 /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		132229E028597E29006671A6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				132229E128597F2B006671A6 /* SideBarView.swift */,
+				132229E4285980A8006671A6 /* TabBarView.swift */,
+				132229E72859818B006671A6 /* ButtomBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		132229ED28598449006671A6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				132229EA28598442006671A6 /* CategoriesListView.swift */,
+				132229EE2859846D006671A6 /* CategorieFormView.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		132229F12859859F006671A6 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				132229F22859859F006671A6 /* AppColorsModel.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		132229F5285985B8006671A6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				132229F6285985B8006671A6 /* ColorExtension.swift */,
+				132229F7285985B8006671A6 /* BindingExtension.swift */,
+				132229F8285985B8006671A6 /* DateFormatterExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,15 +348,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132229EF2859846D006671A6 /* CategorieFormView.swift in Sources */,
+				132229E82859818B006671A6 /* ButtomBar.swift in Sources */,
 				132229AE28597544006671A6 /* FlipNotesApp.swift in Sources */,
+				132229F32859859F006671A6 /* AppColorsModel.swift in Sources */,
 				132229CE28597871006671A6 /* Categories+CoreDataProperties.swift in Sources */,
 				132229C628597871006671A6 /* Question+CoreDataProperties.swift in Sources */,
+				132229F9285985B8006671A6 /* ColorExtension.swift in Sources */,
+				132229EB28598442006671A6 /* CategoriesListView.swift in Sources */,
 				132229CA28597871006671A6 /* Tags+CoreDataProperties.swift in Sources */,
+				132229FD285985B8006671A6 /* DateFormatterExtension.swift in Sources */,
 				132229AC28597544006671A6 /* FlipNotes.xcdatamodeld in Sources */,
+				132229E228597F2B006671A6 /* SideBarView.swift in Sources */,
 				132229DE28597D5A006671A6 /* PersistentCloudKitContainer.swift in Sources */,
 				132229B028597544006671A6 /* ContentView.swift in Sources */,
 				132229CC28597871006671A6 /* Categories+CoreDataClass.swift in Sources */,
+				13222A012859884D006671A6 /* CategoriesDumbModel.swift in Sources */,
 				132229C828597871006671A6 /* Tags+CoreDataClass.swift in Sources */,
+				132229FB285985B8006671A6 /* BindingExtension.swift in Sources */,
+				132229E5285980A8006671A6 /* TabBarView.swift in Sources */,
 				132229C428597871006671A6 /* Question+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,15 +375,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132229F02859846D006671A6 /* CategorieFormView.swift in Sources */,
+				132229E92859818B006671A6 /* ButtomBar.swift in Sources */,
 				132229AF28597544006671A6 /* FlipNotesApp.swift in Sources */,
+				132229F42859859F006671A6 /* AppColorsModel.swift in Sources */,
 				132229CF28597871006671A6 /* Categories+CoreDataProperties.swift in Sources */,
 				132229C728597871006671A6 /* Question+CoreDataProperties.swift in Sources */,
+				132229FA285985B8006671A6 /* ColorExtension.swift in Sources */,
+				132229EC28598442006671A6 /* CategoriesListView.swift in Sources */,
 				132229CB28597871006671A6 /* Tags+CoreDataProperties.swift in Sources */,
+				132229FE285985B8006671A6 /* DateFormatterExtension.swift in Sources */,
 				132229AD28597544006671A6 /* FlipNotes.xcdatamodeld in Sources */,
+				132229E328597F2C006671A6 /* SideBarView.swift in Sources */,
 				132229DF28597D5A006671A6 /* PersistentCloudKitContainer.swift in Sources */,
 				132229B128597544006671A6 /* ContentView.swift in Sources */,
 				132229CD28597871006671A6 /* Categories+CoreDataClass.swift in Sources */,
+				13222A022859884D006671A6 /* CategoriesDumbModel.swift in Sources */,
 				132229C928597871006671A6 /* Tags+CoreDataClass.swift in Sources */,
+				132229FC285985B8006671A6 /* BindingExtension.swift in Sources */,
+				132229E6285980A8006671A6 /* TabBarView.swift in Sources */,
 				132229C528597871006671A6 /* Question+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

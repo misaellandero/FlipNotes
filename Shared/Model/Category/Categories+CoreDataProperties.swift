@@ -8,7 +8,7 @@
 
 import Foundation
 import CoreData
-
+import SwiftUI
 
 extension Categories {
 
@@ -36,6 +36,13 @@ extension Categories {
         details ?? ""
     }
     
+    //Category color
+    public var categoryColor : Color {
+        //Color
+        let index = Int(color)
+        return AppColorsModel.colors[index].color
+    }
+    
     // MARK: - Relationships Array
     
     public var questionsArray: [Question] {
@@ -45,6 +52,7 @@ extension Categories {
             $0.wrappedQuestion > $1.wrappedQuestion
         }
     }
+    
     
 }
 

@@ -8,7 +8,7 @@
 
 import Foundation
 import CoreData
-
+import SwiftUI
 
 extension Tags {
 
@@ -34,6 +34,13 @@ extension Tags {
     
     public var wrappedDetails : String {
         details ?? ""
+    }
+    
+    //Category color
+    public var tagColor : Color {
+        //Color
+        let index = Int(color)
+        return AppColorsModel.colors[index].color
     }
     
     // MARK: - Relationships Array
