@@ -22,8 +22,10 @@ struct CategoriesListView: View {
             ForEach(categories, id: \.id) { category in
                 NavigationLink(destination: Text(category.wrappedName) ){
                     Text(category.wrappedName)
-                        .foregroundColor(category.categoryColor)
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
                 }
+                .listRowBackground(category.categoryColor)
             }
         }
         .toolbar {
@@ -40,13 +42,17 @@ struct CategoriesListView: View {
         .sheet(isPresented: $showAddCategory){
             #if os(iOS)
             NavigationView{
-                CategorieFormView(model: categoriesDumbModel(), save: {})
+                CategorieFormView(model: categoriesDumbModel(newCategory:true))
             }
             #else
-            CategorieFormView(model: categoriesDumbModel(), save: {})
+            VStack{
+                CategorieFormView(model: categoriesDumbModel(newCategory:true))
+                    .padding()
+            }
+            .frame(width: 300, height: 200)
             #endif
         }
-    }
+    } 
 }
 
 struct CategoriesListView_Previews: PreviewProvider {

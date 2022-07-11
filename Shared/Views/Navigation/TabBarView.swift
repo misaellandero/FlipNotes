@@ -33,6 +33,10 @@ struct TabBarView: View {
                 NavigationView{
                     Text("settings")
                 }
+            case .cards:
+                NavigationView{
+                    CardsView()
+                }
             }
             
             ButtomBar(sectionSelected: $sectionSelected)

@@ -9,7 +9,7 @@ import SwiftUI
 
 // MARK: - Navigation Options
 enum SectionSelected {
-    case questions, tags, categories, settings
+    case questions, tags, categories, settings, cards
 }
 
 

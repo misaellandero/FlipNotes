@@ -20,7 +20,7 @@ struct SideBarView: View {
                     Label("Categories", systemImage: "list.bullet.circle.fill")
                 }
                 
-                NavigationLink(destination: Text("Questions"), tag: SectionSelected.questions, selection: $sectionSelected) {
+                NavigationLink(destination: QuestionsListView(), tag: SectionSelected.questions, selection: $sectionSelected) {
                     Label("Questions", systemImage: "questionmark.circle.fill")
                 }
                 
@@ -30,6 +30,9 @@ struct SideBarView: View {
                 
                 NavigationLink(destination: Text("Settings"), tag: SectionSelected.settings, selection: $sectionSelected) {
                     Label("Settings", systemImage: "gear")
+                }
+                NavigationLink(destination: CardsView(), tag: SectionSelected.cards, selection: $sectionSelected) {
+                    Label("Cards", systemImage: "lanyardcard.fill")
                 }
             }
             .listStyle(SidebarListStyle())

@@ -18,6 +18,8 @@ struct ButtomBar : View {
                 ButtonFromBar(sectionSelected: $sectionSelected, index: .questions, label: "Questions", image: "questionmark")
                 ButtonFromBar(sectionSelected: $sectionSelected, index: .tags, label: "Tags", image: "tag.fill")
                 ButtonFromBar(sectionSelected: $sectionSelected, index: .settings, label: "Settings", image: "gear")
+                
+                ButtonFromBar(sectionSelected: $sectionSelected, index: .cards, label: "Cards", image: "lanyardcard.fill")
             }
             .background(.regularMaterial)
             .cornerRadius(20)

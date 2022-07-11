@@ -53,7 +53,6 @@ extension Categories {
         }
     }
     
-    
 }
 
 // MARK: Generated accessors for questions
